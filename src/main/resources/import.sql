@@ -5,3 +5,7 @@ INSERT INTO direcciones (calle,numero) VALUES ('vaticano',123), ('carl',1233);
 INSERT INTO tbl_clientes_direcciones (id_cliente,id_direccion) VALUES (1,1), (2,2);
 INSERT INTO clientes_detalles (prime, puntos_acumulados, cliente_detalle_id) VALUES (1,5000,1);
 INSERT INTO tbl_alumnos_cursos (alumno_id,curso_id) VALUES (1,1), (1,2);
+INSERT INTO facturas (descripcion,total,id_cliente) VALUES ('oficina',5000,1);
+INSERT INTO facturas (descripcion,total,id_cliente) VALUES ('xbox',3000,1);
+INSERT INTO facturas (descripcion,total,id_cliente) VALUES ('play',6000,1);
+INSERT INTO facturas (descripcion,total,id_cliente) VALUES ('cel',5000,2);
